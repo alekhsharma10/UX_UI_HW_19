@@ -18,6 +18,14 @@ ul{
     margin-left: auto;
 }
 
+body{
+    background-color: #E6E0D2;
+}
+
+button{
+    align-items: center;
+}
+
 .heroImg{
     height: 600px;
     padding: 25px;

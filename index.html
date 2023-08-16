@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<link href="css/index.css" type="text/css" rel="stylesheet">
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <header class="navigation">
+            <div class="inline-block logo">
+                <!--for some reason, the CSS wasn't being applied to the image even though the parent (<div>) had both inlineblock and logo class applied-->
+
+                    <!--used div.logo but css still wasn't applying to the <img> -->
+                    
+                <!--moved the class into img element here-->
+                <img class="logo" src="images/Alekh Sharma-1.png"> 
+            </div>
+
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block">About</li>
+                    <li class="inline-block"><a href="skills.html">Skills</a></li>
+                    <li class="inline-block"><a href="myWork.html">Work</a></li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="heroImg">
+            <div class="content">
+                 <!--similar issue as above; parent class CSS modifications aren't being applied; in this case the "width" wasn't changing the size of the image-->
+                    
+                <!--added width element here-->
+                <img src="images/Screenshot 2023-01-28 145628.png" width="500px">
+                <p>Alekh is a passionate and creative individual dedicated to designing meaningful user experiences. With a strong foundation in design principles and a keen eye for detail, he approaches each project with enthusiasm and has an eagerness to learn and grow in the field. Alekh seeks to create intuitive and user-friendly interfaces that resonate with users on a deeper level.</p>
+                <button>Download Resume</button>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </footer>
+    </body>
+</html>

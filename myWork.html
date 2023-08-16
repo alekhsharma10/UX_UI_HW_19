@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<link href="css/skills.css" type="text/css" rel="stylesheet">
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <header class="navigation">
+            <div>
+                <!--for some reason, the CSS wasn't being applied to the image even though the parent (<div>) had both inlineblock and logo class applied-->
+
+                    <!--used div.logo but css still wasn't applying to the <img> -->
+                    
+                <!--moved the class into img element here-->
+                <img class="inline-block logo" src="images/Alekh Sharma-1.png"> 
+            </div>
+
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block"><a href="index.html">About</a></li>
+                    <li class="inline-block"><a href="skills.html">Skills</a></li>
+                    <li class="inline-block">Work</li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="myWork">
+            <h1>My Work</h1>
+            <div class="flexContainer">
+                <div>
+                    <img class="pics" src="images/Screenshot 2023-08-10 124352.png">
+                    <h4>ChefGPT</h4>
+                    <p>Have you ever wanted to know what recipes you can make at home with the ingredients you already have? With “ChefGPT” you can input ingredients and not only will it find you the easiest recipes to make, it can do much more!</p>
+                    <button>View Project</button>
+                </div>
+                <div>
+                    <img class="pics" src="images/Screenshot 2023-08-10 130905.png">
+                    <h4>Feline Resuce</h4>
+                    <p></p>
+                    <button>View Project</button>
+                </div>
+                <div>
+                    <img>
+                    <h4>Project 3</h4>
+                    <p>Project is WIP</p>
+                    <button>View Project</button>
+                </div>
+
+                <h3>View All Projects</h3>
+            </div>
+        </section>
+
+        <footer>
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </footer>
+    </body>
+</html>
